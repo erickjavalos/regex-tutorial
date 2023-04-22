@@ -36,22 +36,55 @@ The regular expression uses the + quantifier to match one or more characters in 
 
 ### OR Operator
 
+The regular expression does not use the OR operator, however if so, (|) is a special character used in regular expressions that allows you to match one of several possible patterns. 
+
 ### Character Classes
+
+The regular expression uses character classes such as [a-z0-9_], [\d], and [a-z] to match specific sets of characters in the email address.
 
 ### Flags
 
+The regular expression does not use any flags. 
+
+In general, flags are special characters that modify the behavior of a pattern match. They are typically written after the closing delimiter of a regular expression and are usually represented by a single letter.
+
+
 ### Grouping and Capturing
+
+The regular expression uses three groups to capture the username, domain name, and top-level domain parts of the email address.
 
 ### Bracket Expressions
 
+The regular expression uses bracket expressions such as [\da-z\.-] and [a-z\.] to match specific sets of characters in the email address.
+
 ### Greedy and Lazy Match
+
+The regular expression uses greedy matching by default, meaning that it matches as many characters as possible while still allowing the overall pattern to match.
+
+In summary, greedy matching and lazy matching are two different ways of matching patterns in regular expressions. Greedy matching matches as much of the input string as possible, while lazy matching matches as little as possible while still satisfying the pattern.
 
 ### Boundaries
 
+The regular expression does not use any boundaries.
+
+In summary boundaries are special characters that mark the beginning or end of a word, line, or string. They are used to restrict matches to specific parts of the input text and are essential for precise pattern matching.
+
+Some common boundary characters in regular expressions include ^ and $ (which match the beginning and end of a line or string), \b and \B (which match word boundaries), and \A and \Z (which match the beginning and end of the entire string, respectively).
+
+By using boundaries in regular expressions, you can ensure that your pattern matches only the exact parts of the input text that you want, and not any extraneous or overlapping matches.
+
 ### Back-references
+
+The regular expression does not use any back-references.
+
+In general, back referencing is a feature in regular expressions that allows you to reference a previously captured group within the same pattern. When a capturing group matches a subpattern, the contents of the group can be stored in memory and later referenced using a back reference
 
 ### Look-ahead and Look-behind
 
+The regular expression does not use any look-ahead or look-behind assertions.
+
+Look-ahead and look-behind assertions are powerful tools in regular expressions, allowing you to create more complex patterns that depend on the context of the input string. They are particularly useful in situations where you need to match a pattern only if it is preceded or followed by certain other patterns, without actually including those patterns in the final match.
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Erick Avalos: Github: https://github.com/erickjavalos
