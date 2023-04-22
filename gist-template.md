@@ -4,7 +4,11 @@ Regex (short for Regular Expression) is a pattern-matching language used to sear
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+
+
+'''
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+'''
 
 ## Table of Contents
 
@@ -24,7 +28,11 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+The regular expression uses the caret (^) and dollar sign ($) anchors to match the entire string, ensuring that the email address is the only thing in the string.
+
 ### Quantifiers
+
+The regular expression uses the + quantifier to match one or more characters in the username and domain name parts of the email address. It also uses the {2,6} quantifier to match between 2 and 6 characters in the top-level domain part of the email address.
 
 ### OR Operator
 
