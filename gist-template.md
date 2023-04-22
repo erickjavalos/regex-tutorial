@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regex (short for Regular Expression) is a pattern-matching language used to search, manipulate, and validate text. It consists of a sequence of characters that define a search pattern. This pattern can be used to match, replace or extract specific sequences of characters from a string. Below you will be able to see different applicaitons of Regex. 
 
 ## Summary
 
