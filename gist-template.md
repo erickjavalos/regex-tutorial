@@ -4,7 +4,9 @@ Regex (short for Regular Expression) is a pattern-matching language used to sear
 
 ## Summary
 
+In this tutorial, we will cover the basics of regex tutorial with a email regex. We will investigate what the anchors, quantifiers, OR operator, character classes, flags, grouping and capturing, bracket expressions, greedy and lazy match, boundaries, back-references, and look-ahead and look-behind to see if it exists. 
 
+The email regex is here:
 
 '''
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
