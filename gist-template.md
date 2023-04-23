@@ -8,9 +8,9 @@ In this tutorial, we will cover the basics of regex tutorial with a email regex.
 
 The email regex is here:
 
-'''
+```
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-'''
+```
 
 ## Table of Contents
 
